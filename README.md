@@ -159,7 +159,8 @@ $ npm install
 ```
 注意我推荐用的是Vue初学者工具中最佳支持的版本，因为有时候最新的版本不能很好的支持。
 
-最后，vuejs库安装到你的`dependencies`中。
+最后，vuejs库安装到你的`dependencies`中。  
+vue为1.0版本
 ```
 $ npm install --save vue
 ```
@@ -333,7 +334,7 @@ build.js 258 kB 0 [emitted] main
 ```
 $ npm install
 $ npm install -g webpack-dev-server
-$ webpack-dev-server --inline --hot
+$ webpack -dev-server --inline --hot
 ```
 
 当你用`webpack-dev-server`，你会看到一个很大的输出：
